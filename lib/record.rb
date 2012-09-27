@@ -1,6 +1,6 @@
 require 'date'
 
-class TimeRecord
+class Record
   attr_accessor :concept, :date, :amount
 
   def initialize(concept = '', date = Date.today , amount = 8)

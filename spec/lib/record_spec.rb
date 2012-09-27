@@ -1,6 +1,6 @@
-require './lib/time_record'
+require './lib/record'
 
-describe TimeRecord do
+describe Record do
 
   describe %| Default values | do
     before{ Date.stub today: Date.today }
